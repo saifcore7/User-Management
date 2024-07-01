@@ -82,7 +82,7 @@ public class ShowUserServlet extends HttpServlet {
             e.printStackTrace();
         }
         
-        pw.println("<button class='btn btn-outline-success d-block'><a href='home.html'>Home</a></button>");
+        pw.println("<a href='home.html' class='btn btn-outline-success d-block'>Home</a>");
         pw.println("</div>");
         // Close the stream
         pw.close();

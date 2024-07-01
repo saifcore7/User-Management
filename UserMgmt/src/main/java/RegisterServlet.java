@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/register")
-public class RegisterServelet extends HttpServlet {
+public class RegisterServlet extends HttpServlet {
     private final static String query = "insert into user(name,email,mobile,dob,city,gender) values(?,?,?,?,?,?)";
 
     @Override
